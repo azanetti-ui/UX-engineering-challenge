@@ -24,8 +24,8 @@ export default function Heros() {
             <h1 className={AvantGarde.className + ' heading-block h1'}>Title</h1>
             <p className={OpenSans.className + ' heading-block subtitle'}>Lorem ipsum dolor sit amet consectetur. Aliquam non facilisis sit purus. Parturient sagittis eu adipiscing congue dignissim tristique risus eu.</p>
             <div className="cta">
-                <Button children={'Label'}></Button>
-                <Button variant={'secondary'} children={'Label'}></Button>
+                <Button>{'Label'}</Button>
+                <Button variant={'secondary'}>{'Label'}</Button>
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function Heros() {
                 <IoIosSearch className="input-icon"/>
                 <Input></Input>   
               </form>
-              <Button children={'Label'}></Button>
+              <Button>{'Label'}</Button>
             </div>
           </div>
         </div>
