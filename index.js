@@ -1,6 +1,5 @@
-import App from "./_app";
+import App from "./src/pages/_app";
 import Head from "next/head";
-import Image from "next/image";
 
 export default function Home() {
   return (
