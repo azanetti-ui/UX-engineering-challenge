@@ -1,5 +1,10 @@
-import "@/styles/globals.css";
+import "@/styles/challenge.css";
+import Heros from './Heros'
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+export default function App() {
+  return (
+    <div id="concentrix-challenge">
+      <Heros></Heros>
+    </div>
+ );
 }
