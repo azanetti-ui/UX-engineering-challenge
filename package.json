@@ -1,12 +1,12 @@
 {
+  "homepage": "https://azanetti-ui.github.io/UX-engineering-challenge",
   "name": "ux-engineering-challenge",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://azanetti-ui.github.io/UX-engineering-challenge",
   "scripts": {
+    "dev": "next dev",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -14,7 +14,6 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "gh-pages": "^6.2.0",
     "next": "15.0.3",
     "react": "^19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
@@ -32,6 +31,7 @@
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
     "eslint-plugin-storybook": "^0.11.0",
+    "gh-pages": "^6.2.0",
     "sass": "^1.80.7",
     "storybook": "^8.4.3"
   }
